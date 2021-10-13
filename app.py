@@ -21,4 +21,4 @@ def download():
     return redirect(url_for('downloader'))
 
 if __name__ =='__main__':
-    app.run(debug=True) 
+    app.run() 
