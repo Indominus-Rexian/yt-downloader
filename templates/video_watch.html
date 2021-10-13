@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>YT VIDEO Downloader</title>
+        <link rel="icon" href="https://icon-library.com/images/youtube-downloader-icon/youtube-downloader-icon-16.jpg">
+    </head>
+    <body>
+        <h1>{{ filetitle }}</h1>
+        <form action="{{url_for('download')}}" method="POST">
+            <input type="hidden" value="{{filepath}}" name="filepath">
+            <img src="{{thumbnail}}";alt="Thumbnail"
+            <br>
+            <br>
+            <input type="submit" value="Download">
+            <br>
+            <a style="color: deeppink;"href="https://github.com/Indominus-Rexian">My Github</a><br>
+            <a style="color: deeppink;" href="https://stackoverflow.com/users/14388242/dheeraj-tech">My Stack Overflow</a>    
+    
+        </form>
+    </body>
